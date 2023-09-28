@@ -1,0 +1,195 @@
+/* header và footer đã làm ở phần css index */
+.grey{
+    color: grey;
+}
+.product-title{
+    height: 45px;
+    line-height: 13px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.product-title ul li{
+    display: inline-block;
+    padding-top: 18px;
+}
+.product-title ul li i{
+    margin-right: 7px;
+}
+.product-title ul li:hover a{
+    color: grey;
+}
+.product{
+    max-width: 1250px;
+    min-height: auto;
+}
+.sidebar{
+    margin-top: 30px;
+}
+
+.product-top {
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.inf p{
+    margin-bottom: 5px;
+}
+.inf-image img{
+    width: 100%;
+}
+.inf-title{
+    font-size: 12px;
+}
+.inf-title a{
+    font-size: 25px;
+    margin-bottom: 25px;
+    display: block;
+}
+.inf-title span{
+    color: #007f61;
+}
+.content-inf{
+    margin-top: 20px;
+    line-height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 30px 20px;
+    color: #666;
+}
+.inf-manga p{
+    line-height: 10px;
+}
+.inf-manga a{
+    color: #007f61;
+    font-size: 13px;
+}
+.inf-manga a:hover{
+    color: red;
+}
+.status {
+    color: #fff;
+    background-color: #007f61;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.3;
+}
+/*status giống như những class full khác */
+.content-inf-manga p{
+    margin-bottom: 23px;
+}
+/* end product top */
+.product-mid {
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.chapter li a{
+    display: inline-block;
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
+    line-height: 40px;
+    width: 100%;
+    margin: auto 0;
+}
+.chapter li.active a{
+    color: #007f61;
+}
+.list-btn {
+    position:relative;
+    left:30%;
+}
+.list-btn ul li{
+    padding: 5 7px;
+    display: inline-block;
+}
+.list-btn ul li:hover a ,.list-btn ul li.active a{
+    border: 1px solid #007f61;
+    border-radius: 4px;
+}
+.list-btn ul li a{
+    min-width: 32px;
+    min-height: 32px;
+    color: #888;
+    font-size: 14px;
+    line-height: 32px;
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 4px;
+}
+.list-btn ul li .green{
+    background-color: #007f61;
+    color: white;
+    opacity: 0.6;
+}
+.list-btn ul li:hover .green{
+    opacity: 1;
+}
+@media (max-width: 768px) { 
+    .list-btn ul li:nth-child(1) ,.list-btn ul li:nth-child(6),.list-btn ul li:nth-child(7),.list-btn ul li:nth-child(10){
+        display: none;
+    }
+}
+/* end product mid */
+.product-bot{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.add-title{
+    width: 100%;
+}
+.text-box{
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.product-bot .add-title h5{
+    margin-top: 20px;
+    text-transform: none;
+}
+/* carousel */
+.owl-carousel.owl-theme{
+    margin-top: 50px;
+    position: relative;
+}
+.owl-nav {
+    position: absolute;
+    top:-57px;
+    right: 0;
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: #666;
+    color: white;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background-color: #f0f0f0;
+    font-size: 10px;
+    padding: 15px !important;
+    border-radius: 50%;
+    position: relative;
+}
+.owl-carousel button span{
+    font-size: 40px;
+    position: absolute;
+    top: -20px;
+    left: 8px;
+}
+.owl-carousel p span{
+    color: #888;;
+}
+.owl-carousel a{
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: 550;
+    transition: 0.5s;
+}
+.owl-carousel a:hover{
+    color: #888;
+}
